@@ -1,0 +1,21 @@
+{
+  "name": "pasta-timer",
+  "productName": "Pasta Timer",
+  "version": "0.1.0",
+  "description": "A minimal timer for mac",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "node_modules/.bin/electron-packager . --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune --out=release-builds --overwrite=true --extend-info=mac/Info.plist"
+  },
+  "repository": "",
+  "keywords": [
+    "Timer"
+  ],
+  "author": "Aymeric Auberger",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-packager": "^12.1.2"
+  }
+}

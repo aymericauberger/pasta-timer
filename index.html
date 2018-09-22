@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div>
+      <div style="text-align: center;">
+        <form id="timer">
+          <div class="time-inputs">
+            <input type="text" name="input_minutes" id="input_minutes" placeholder="10" class="time minutes" value="8">
+            <span>:</span>
+            <input type="text" name="input_seconds" id="input_seconds" placeholder="10" class="time seconds" value="00">
+          </div>
+          <input type="submit" name="Go" class="submit-btn" value="Start">
+        </form>
+      </div>
+    </div>
+
+    <script>
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

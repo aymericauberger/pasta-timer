@@ -1,0 +1,32 @@
+.time-inputs {
+    padding-top: 10px;
+}
+
+.time-inputs span {
+    font-size: 80px;
+}
+
+.time {
+    font-size: 80px;
+    background: transparent none;
+    border: 0;
+    width: 100px;
+    text-align: right;
+}
+
+.time:focus {
+    box-shadow: none;
+    outline: none !important;
+}
+
+.submit-btn {
+    background: #2B632F;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    width: 150px;
+}
