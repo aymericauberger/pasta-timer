@@ -37,7 +37,6 @@ if (previousSeconds !== undefined) {
 }
 
 let totalSeconds = 0;
-let timeout = null;
 let child = null;
 
 minutesElem.focus();

@@ -17,7 +17,11 @@ function createWindow () {
     height: 200,
     frame: false,
     backgroundColor: '#ffffff',
-    title: 'Pasta Timer'
+    title: 'Pasta Timer',
+    webPreferences: {
+      nodeIntegration: true,
+      enableRemoteModule: true,
+    }
   });
 
   mainWindow.loadURL(url.format({
